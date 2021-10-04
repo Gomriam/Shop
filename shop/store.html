@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="store.css">
+    <title>Document</title>
+</head>
+<body>
+   <header class="sticky">
+       <div class="user">
+    <span class="material-icons">
+        account_circle
+        </span>
+        <h2>Welcome: <span id="name"></span>! to Lucas shop</h2>
+    </div>
+    <h3>
+        <u>click on the item to put it in the basket!!</u> 
+    </h3>
+      <div class="basket">
+        <span class="material-icons">
+            add_shopping_cart
+            </span>
+            <div class="square">
+                <p id="num"></p>
+            </div>
+      </div>
+   </header>
+   <h3 class="h3">Here as you can see you have a great selection of can juyce take what you want!</h3>
+   <div class="chest" id="cont">
+       <div class="fruit one">
+           <h3>@Mango</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReu3p5MGB0EINlK0W4ppv7u_VpErut2ZdxWw&usqp=CAU" alt="">
+           <h3>2$</h3>
+       </div>
+       <div class="fruit two">
+           <h3>@Appe</h3>
+           <img src="data:image/jpeg;base64,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" alt="">
+           <h3>3$</h3>
+       </div>
+       <div class="fruit thre">
+           <h3>@Orange</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4st5RHG8izKKd2o_nS-1cHagtHNQeywf_HA&usqp=CAU" alt="">
+           <h3>2$</h3>
+       </div>
+       <div class="fruit four">
+           <h3>@Grape</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC-SVjCXTgyOEBNdxUytsYyMlJMH9lmji5Aw&usqp=CAU" alt="">
+           <h3>4$</h3>
+       </div>
+       <div class="fruit five">
+           <h3>@Kiwi</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsxPvahNsvHAiYcWvbAhW0SD9FKiJGDQuEOw&usqp=CAU" alt="">
+           <h3>3$</h3>
+       </div>
+   </div>
+   <div class="legs">
+    <div class="cointeiner" id="conteiner"></div>
+    <div class="chek-out" id="chek-out"> 
+        <button id="check">Check-out</button>
+    </div>
+   </div>
+   <div class="result" id="end">
+       <p>Thanks for you purchase!,you have to pay....</p>
+       <p class="price" id="price"></p><br>
+       <button id="reload">Buy again</button>
+   </div>
+    <script src="store.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(194, 69, 47);
+}
+u{
+    color: rgb(238, 20, 20);
+}
+h2{
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(221, 16, 16);
+}
+h2{
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(33, 119, 52);
+}
+input{
+    position: relative;
+    left: 43%;
+    padding: 7px;
+    margin-top: 40px;
+   
+}
+.btn{
+    padding: 7px;
+    border-radius: 7%;
+    font-family: 'Lobster', cursive;
+    position: relative;
+    left: 46%;
+}
+.btn:hover{
+    background-color: rgb(49, 197, 49);
+    color: blue;
+}
+body{
+    background-color: rgb(212, 228, 224);
+}

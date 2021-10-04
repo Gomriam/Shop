@@ -1,0 +1,197 @@
+body{
+    background-color: #e2a4a4;
+    font-family: 'Lobster', cursive;
+}
+header{
+    box-shadow: 0 2px 8px rgba(0, 0,0,0.7);
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(202, 120, 88);
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(45, 48, 204);
+    border-bottom: whitesmoke 3px solid;
+    
+}
+h3{
+    
+    font-size: 30px;
+}
+.user{
+    display: flex;
+    align-content: flex-end;
+    font-size: 20px;
+    
+}
+.user .material-icons{
+    position: relative;
+    top: 23px;
+    font-size: 40px;
+    color:rgba(1, 6, 19, 0.986);
+
+}
+.user span{
+    color: rgba(17, 15, 14, 0.884);
+}
+.basket .material-icons{
+    font-size: 40px;
+    color: rgb(216, 78, 23);
+}
+.basket p{
+    border: 2px solid rgb(104, 69, 69);
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    border-radius: 100%;
+    border-top:greenyellow;
+    color: rgb(24, 4, 11);
+    font-size: 20px;
+}
+img{
+    height: 60px;
+    width: 70px;
+}
+.chest{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+
+}
+.fruit{
+    text-align: center;
+    border: 2px rgb(58, 121, 68) solid;
+    color: rgb(17, 83, 78);
+    border-radius: 20%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0,0,0.7);
+
+}
+
+.fruit.one{
+    width: 150px;
+background-color:rgba(235, 182, 133, 0.863);
+}
+.fruit.two{
+    width: 150px;
+    background-color:rgba(235, 182, 133, 0.863);
+    
+}
+.fruit.thre{
+    width: 150px;
+    background-color:rgba(235, 182, 133, 0.863);
+}
+.fruit.four{
+    width: 150px;
+  background-color:rgba(235, 182, 133, 0.863);
+}
+.fruit.five{
+    width: 150px;
+    background-color:rgba(235, 182, 133, 0.863);
+}
+.fruit:hover{
+    width: 155px;  
+}
+img{
+    height: 140px;
+    width: 140px;
+}
+img:hover{
+    transform: scale(1.3);
+}
+.h3{
+    text-align: center;
+}
+.legs{
+    height: 300px;
+}
+.cointeiner{
+    position: absolute;
+    box-shadow: 0 2px 8px rgba(0, 0,0,0.7);
+    left: 48%;
+    top: 25%;
+    height: 500px;
+    width: 600px;
+    background-color: rgba(171, 155, 173, 0.472);
+    margin-top: 80px;
+   float: left;
+    border: 2px solid rgb(206, 63, 38);
+    overflow-y: auto;
+    border-radius: 10%;
+}
+.chek-out{
+    position: absolute;
+    box-shadow: 0 2px 8px rgba(0, 0,0,0.7);
+    height: 100px;
+    width: 300px;
+    background-color: rgba(212, 132, 78, 0.651);
+    left: 60%;
+    top:115%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(206, 63, 38) 2px solid;
+    border-radius: 5%;
+}
+.chek-out button{
+    font-size: 30px;
+    padding: 10px;
+    border: 3px solid rgb(10, 10, 10);
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.result{
+    display: none;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(136, 27, 199, 0.9);
+}
+.result p {
+    font-size: 40px;
+}
+.result .price{
+    color: rgb(31, 197, 73);
+}
+.result button{
+    font-size: 40px;
+    border-radius: 5%;
+    color: teal;
+}
+.result button:hover{
+    background-color: rgb(224, 15, 43);
+    cursor: pointer;
+}
+
+.result.show{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.on{
+    background-color: rgb(33, 133, 15);
+}
+.para{
+    color: rgb(206, 63, 38);
+    font-size: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0,0,0.4);
+    text-align: center;
+    cursor: pointer;
+}
+
+header.stycy{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
